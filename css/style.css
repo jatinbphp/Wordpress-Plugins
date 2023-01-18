@@ -1,0 +1,97 @@
+#search_all_data.csf_loading{ 
+    background-color: #ffffff;
+    background-image: url(../loading.gif);
+    background-size: 25px 25px;
+    background-position:right center;
+    background-repeat: no-repeat;
+}
+.custom_search_wrap>.fa-search{
+	position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #55595c;
+    opacity: 0.6;
+    left: 3px;
+}
+.custom_search_wrap input{
+	padding: 10px 10px 10px 44px;
+    border:1px solid #FFF6F6;
+    border-radius: 3px;
+    background-color: #eceeef !important;
+    font-size: 15px;
+    width: 100%;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 300;
+}
+.custom_search_wrap input:focus{
+    outline: none;
+    border:1px solid #FFF6F6;
+    background-color: #eceeef;
+}
+.autocomplete-suggestions .search_result{
+	border-bottom: 1px solid #eee;
+}
+.autocomplete-suggestions .search_result:last-child{
+    border-bottom:0;
+}
+.autocomplete-suggestions .search_result a{
+    color: #666;
+}
+.autocomplete-suggestions {
+	padding: 10px;
+}
+
+.custom_search_wrap input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #a6a7a7;
+}
+.custom_search_wrap input::-moz-placeholder { /* Firefox 19+ */
+  color: #a6a7a7;
+}
+.custom_search_wrap input:-ms-input-placeholder { /* IE 10+ */
+  color: #a6a7a7;
+}
+.custom_search_wrap input:-moz-placeholder { /* Firefox 18- */
+  color: #a6a7a7;
+}
+h1.ajax_search_title {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.contentarea .content.woocommerce .products li.product h2 a{
+    color: #0a0a0a;
+}
+@media (max-width: 1199px){
+    .search.search-results .woocommerce ul.products.columns-5 li.product, .woocommerce-page ul.products.columns-5 li.product{width: 25%;margin:0 !important;padding: 0 10px;}
+    h1.ajax_search_title{font-size: 35px;}
+}
+@media (max-width: 991px){
+    .contentarea .content.woocommerce .products li.product h2 a{font-size: 16px;}
+    h1.ajax_search_title{font-size: 30px;}
+}
+@media (max-width: 767px){
+    .search.search-results .woocommerce ul.products.columns-5 li.product, .woocommerce-page ul.products.columns-5 li.product{width: 33.33%;margin:0 !important;padding: 0 10px;}   
+    h1.ajax_search_title{font-size: 26px;}
+}
+@media (max-width: 575px){
+    .search.search-results .woocommerce ul.products.columns-5 li.product, .woocommerce-page ul.products.columns-5 li.product{width: 50%;margin:0 !important;padding: 0 5px;}   
+    .search.search-results .woocommerce ul.products.columns-5 li.product, .woocommerce-page ul.products.columns-5{margin:-0 -5px;}
+    .contentarea .content.woocommerce .products li.product h2 a{font-size: 14px;}
+    h1.ajax_search_title{font-size: 20px;}
+}
+.custom_ajax_search_pagination{ text-align:center !important; }
+
+.product-type-gift-card .price, .product-type-gift-card .product_meta{ display:block !important; }
+.product-type-gift-card .ywgc-main-form-preview-container{ display:none !important; }
+.gift-cards_form>h3 {
+    margin-top: 1em !important;
+    margin-bottom: 0em !important;
+}
+.gift-card-content-editor.step-content h5 {
+    margin-top: 1em !important;
+}
